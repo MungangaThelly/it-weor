@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Hem",
+    "services": "Tjänster",
+    "about": "Om oss",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "welcome": "Välkommen till IT-Weor AB",
+    "intro": "Vi erbjuder moderna IT-lösningar och konsulttjänster för framtidens behov."
+  },
+
+  "hero": {
+  "title": "Din pålitliga IT-partner",
+  "subtitle": "Vi levererar innovativa lösningar för att säkra din digitala framtid.",
+  "cta": "Kom igång"
+  },
+
+
+  "features": {
+    "security": {
+      "title": "Säkerhet",
+      "description": "Certifierad cybersäkerhetsexpertis för att hålla dina system säkra."
+    },
+    "customSolutions": {
+      "title": "Skräddarsydda Lösningar",
+      "description": "Anpassad IT- och webbutveckling för att passa ditt företags behov."
+    },
+    "support": {
+      "title": "Support",
+      "description": "Pålitlig IT-support och systemunderhåll."
+    }
+  },
+  "footer": {
+    "rights": "Alla rättigheter förbehållna.",
+    "contact": "Kontakta oss"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Bienvenue chez IT-Weor AB",
+    "intro": "Nous proposons des solutions informatiques modernes et des services de conseil pour les besoins de demain."
+  },
+
+  "hero": {
+  "title": "Votre partenaire informatique de confiance",
+  "subtitle": "Nous fournissons des solutions innovantes pour sécuriser votre avenir numérique.",
+  "cta": "Commencer"
+  },
+
+
+
+  "features": {
+    "security": {
+      "title": "Sécurité",
+      "description": "Expertise certifiée en cybersécurité pour protéger vos systèmes."
+    },
+    "customSolutions": {
+      "title": "Solutions Personnalisées",
+      "description": "Développement informatique et web sur mesure pour répondre aux besoins de votre entreprise."
+    },
+    "support": {
+      "title": "Support",
+      "description": "Support informatique fiable et maintenance des systèmes."
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "contact": "Contactez-nous"
+  }
+}
