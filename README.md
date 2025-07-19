@@ -1,12 +1,76 @@
-# React + Vite
+README.md
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# IT-Weor AB – Officiell Webbplats
 
-Currently, two official plugins are available:
+Välkommen till den officiella webbsidan för **IT-Weor AB**, ett svenskt IT-företag specialiserat på cybersäkerhet, molntjänster och digitala lösningar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Om projektet
 
-## Expanding the ESLint configuration
+Detta är en React-baserad webbplats som presenterar vårt företag, våra tjänster och vårt erbjudande till både företag och privatpersoner. Fokus ligger på tydlig kommunikation, säkerhetsmedvetenhet och modern webbutveckling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Teknikstack
+
+- **React.js** – komponentbaserad frontend
+- **HTML5 & CSS3** – semantisk och responsiv design
+- **JavaScript (ES6+)**
+- (Valfritt) **Node.js / Express (backend)** – om ni använder en server
+- (Valfritt) **JWT** – för autentisering via API
+
+## 🛡️ Våra tjänsteområden
+
+| Tjänsteområde                        | Exempel på leverans |
+|-------------------------------------|----------------------|
+| **Webb- & Applikationssäkerhet**    | Frontend (XSS, CSRF, CSP) och backend (API-säkerhet, JWT-autentisering) |
+| **Microsoft 365 & Azure-säkerhet**  | DLP, MFA, Zero Trust, Sentinel |
+| **Nätverks- & Infrastruktursäkerhet** | Cisco VPN, brandväggar, SIEM |
+| **IT-strategi & Projektledning**    | ISO 27001, incidenthantering |
+| **Support & Optimering**            | 24/7 övervakning, ITIL, prestandaoptimering |
+
+## 📁 Struktur
+
+/src
+├── components
+│ └── About.jsx # Innehåller företagspresentationen och tjänstetabellen
+├── App.js
+├── index.js
+└── styles.css (valfritt)
+
+bash
+Kopiera
+Redigera
+
+## 📦 Installation
+
+1. Klona projektet:
+
+```bash
+git clone https://github.com/dittkonto/it-weor-website.git
+cd it-weor-website
+Installera beroenden:
+
+bash
+Kopiera
+Redigera
+npm install
+Starta utvecklingsservern:
+
+bash
+Kopiera
+Redigera
+npm start
+🔒 Säkerhetsfokus
+Vi använder moderna säkerhetsprinciper såsom:
+
+JWT för autentisering
+
+Zero Trust-modellen i molnmigrering
+
+Penetrationstester och kodgranskning
+
+SIEM och hotdetektering
+
+📬 Kontakt
+📧 info@it-weor.se
+🌐 www.it-weor.se (länk om tillgänglig)
+
+© 2025 IT-Weor AB – All rights reserved.

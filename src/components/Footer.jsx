@@ -14,6 +14,75 @@ const Footer = () => {
           <span className="block sm:inline">Mobil: +46 70 481 03 77</span>
         </div>
       </div>
+
+      {/* Partners & Sponsors */}
+      <div className="max-w-6xl mx-auto px-4 mt-10 text-center">
+        <h4 className="text-sm font-semibold mb-4 uppercase tracking-wide">Partners & Sponsorer</h4>
+        <div className="flex flex-wrap justify-center gap-8">
+          {/* S4D4C */}
+          <div className="flex flex-col items-center">
+            <a
+              href="https://www.s4d4c.eu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="/partners/s4d4c-logo.png"
+                alt="S4D4C Logo"
+                className="h-10"
+              />
+            </a>
+            <span className="text-xs mt-2">S4D4C</span>
+          </div>
+
+          {/* ANAPI */}
+          <div className="flex flex-col items-center">
+            <a
+              href="https://anapi.cd"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="/partners/anapi-logo.svg"
+                alt="ANAPI Logo"
+                className="h-10"
+              />
+            </a>
+            <span className="text-xs mt-2">ANAPI</span>
+          </div>
+
+          {/* RDC Embassy */}
+          <div className="flex flex-col items-center">
+            <a
+              href="https://ambardcstockholm.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline text-white"
+            >
+              <img
+                src="/partners/ambard-sthlm.webp"
+                alt="AMBARD Logo"
+                className="h-10"
+              />
+              <span className="text-sm font-medium">RDC Ambassaden i Stockholm</span>
+            </a>
+          </div>
+
+          {/* IST Diaspora Network */}
+          <div className="flex flex-col items-center">
+            <a
+              href="RDKONGO"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline text-white"
+            >
+              <span className="text-sm font-medium">IST Diaspora Network</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };
