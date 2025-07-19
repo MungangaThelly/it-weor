@@ -1,4 +1,3 @@
-// src/pages/ThankYou.jsx (note the correct file name and path)
 import React from 'react';
 
 const ThankYou = () => (

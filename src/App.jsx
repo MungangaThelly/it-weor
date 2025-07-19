@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import ThankYou from './pages/ThankYou'; // Ensure correct spelling and path
+import ThankYou from './pages/TankYou'; // Ensure correct spelling and path
 
 function App() {
   return (
