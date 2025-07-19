@@ -81,6 +81,23 @@ const Footer = () => {
               <span className="text-sm font-medium">IST Diaspora Network</span>
             </a>
           </div>
+
+          {/* Symbol för ursprung och hållbarhet image - Okapi */}
+          <div className="mt-8 text-center opacity-80">
+            <img
+              src="/images/okapi.jpg"
+              alt="Okapi - ett djur från Kongo"
+              className="mx-auto h-16 rounded shadow-sm"
+            />
+            <p className="text-xs text-gray-300 mt-2 italic">
+              Okapi - Symbol för ursprung och hållbarhet
+            </p>
+          </div>
+
+
+
+
+
         </div>
       </div>
     </footer>
