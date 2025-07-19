@@ -18,6 +18,7 @@ const Contact = () => {
         method="POST"
         data-netlify="true"
         netlify-honeypot="bot-field"
+        action="/thank-you"  // Redirect to the thank-you page after submission
         style={{ maxWidth: '400px', margin: '0 auto', textAlign: 'left' }}
       >
         {/* Netlify form hidden inputs */}
