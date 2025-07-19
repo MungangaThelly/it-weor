@@ -27,41 +27,71 @@ const About = () => (
     {/* Tjänster */}
     <section id="tjanster" style={{ marginBottom: '2rem' }}>
       <h2>Tjänster vi levererar</h2>
-
-      <h3>1. Webb- & Applikationssäkerhet</h3>
-      <ul>
-        <li>Säkerhetsgranskning av frontend (XSS, CSRF, CSP)</li>
-        <li>Rådgivning inom säker kodning</li>
-        <li>Penetrationstester för webbapplikationer</li>
-      </ul>
-
-      <h3>2. Microsoft 365 & Azure-säkerhet</h3>
-      <ul>
-        <li>DLP, MFA och villkorsstyrd åtkomst</li>
-        <li>Hotidentifiering med Defender & Sentinel</li>
-        <li>Säker molnmigrering enligt Zero Trust</li>
-      </ul>
-
-      <h3>3. Nätverks- & Infrastruktursäkerhet</h3>
-      <ul>
-        <li>Cisco-brandväggar, VPN & segmentering</li>
-        <li>SIEM-lösningar och logganalys</li>
-        <li>WAF-implementation</li>
-      </ul>
-
-      <h3>4. IT-strategi & Projektledning</h3>
-      <ul>
-        <li>Cybersäkerhetsstrategi och ISO 27001-stöd</li>
-        <li>Digital transformation</li>
-        <li>Incident Response Planning</li>
-      </ul>
-
-      <h3>5. Kontinuerlig support & optimering</h3>
-      <ul>
-        <li>24/7 övervakning via vår hostingplattform</li>
-        <li>ITIL-baserad support</li>
-        <li>Prestandaoptimering av webb- och molnapplikationer</li>
-      </ul>
+      <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+        <thead>
+          <tr>
+            <th style={{ borderBottom: '2px solid #ccc', padding: '0.5rem' }}>Tjänsteområde</th>
+            <th style={{ borderBottom: '2px solid #ccc', padding: '0.5rem' }}>Exempel på leverans</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={{ verticalAlign: 'top', padding: '0.5rem' }}>
+              <strong>1. Webb- & Applikationssäkerhet</strong>
+            </td>
+            <td style={{ padding: '0.5rem' }}>
+              <strong>Frontend:</strong><br />
+              Säkerhetsgranskning av frontend (XSS, CSRF, CSP)<br />
+              Rådgivning inom säker kodning<br />
+              Penetrationstester för webbapplikationer<br /><br />
+              <strong>Backend:</strong><br />
+              Säkerhetsgranskning av backend (t.ex. API-säkerhet, autentisering med JWT)<br />
+              Rådgivning inom säker serverkodning<br />
+              Penetrationstester för backend- och API-tjänster
+            </td>
+          </tr>
+          <tr>
+            <td style={{ verticalAlign: 'top', padding: '0.5rem' }}>
+              <strong>2. Microsoft 365 & Azure-säkerhet</strong>
+            </td>
+            <td style={{ padding: '0.5rem' }}>
+              DLP, MFA och villkorsstyrd åtkomst<br />
+              Hotidentifiering med Defender & Sentinel<br />
+              Säker molnmigrering enligt Zero Trust
+            </td>
+          </tr>
+          <tr>
+            <td style={{ verticalAlign: 'top', padding: '0.5rem' }}>
+              <strong>3. Nätverks- & Infrastruktursäkerhet</strong>
+            </td>
+            <td style={{ padding: '0.5rem' }}>
+              Cisco-brandväggar, VPN & segmentering<br />
+              SIEM-lösningar och logganalys<br />
+              WAF-implementation
+            </td>
+          </tr>
+          <tr>
+            <td style={{ verticalAlign: 'top', padding: '0.5rem' }}>
+              <strong>4. IT-strategi & Projektledning</strong>
+            </td>
+            <td style={{ padding: '0.5rem' }}>
+              Cybersäkerhetsstrategi och ISO 27001-stöd<br />
+              Digital transformation<br />
+              Incident Response Planning
+            </td>
+          </tr>
+          <tr>
+            <td style={{ verticalAlign: 'top', padding: '0.5rem' }}>
+              <strong>5. Kontinuerlig support & optimering</strong>
+            </td>
+            <td style={{ padding: '0.5rem' }}>
+              24/7 övervakning via vår hostingplattform<br />
+              ITIL-baserad support<br />
+              Prestandaoptimering av webb- och molnapplikationer
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     {/* Varför oss */}
