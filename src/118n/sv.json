@@ -9,26 +9,24 @@
     "welcome": "Välkommen till IT-Weor AB",
     "intro": "Vi erbjuder moderna IT-lösningar och konsulttjänster för framtidens behov."
   },
-
   "hero": {
-  "title": "Din pålitliga IT-partner",
-  "subtitle": "Vi levererar innovativa lösningar för att säkra din digitala framtid.",
-  "cta": "Kom igång"
+    "title": "Din pålitliga IT-partner",
+    "subtitle": "Innovativa lösningar som säkrar din digitala framtid.",
+    "cta": "Kontakta oss idag",
+    "cta_link": "/kontakt"
   },
-
-
   "features": {
     "security": {
       "title": "Säkerhet",
-      "description": "Certifierad cybersäkerhetsexpertis för att hålla dina system säkra."
+      "description": "Certifierad cybersäkerhetsexpertis som skyddar dina system dygnet runt."
     },
     "customSolutions": {
       "title": "Skräddarsydda Lösningar",
-      "description": "Anpassad IT- och webbutveckling för att passa ditt företags behov."
+      "description": "Anpassad IT- och webbutveckling för att möta just ditt företags unika behov."
     },
     "support": {
       "title": "Support",
-      "description": "Pålitlig IT-support och systemunderhåll."
+      "description": "Pålitlig IT-support och systemunderhåll som håller verksamheten igång."
     }
   },
   "footer": {
