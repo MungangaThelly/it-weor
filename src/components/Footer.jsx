@@ -73,7 +73,7 @@ const Footer = () => {
           {/* IST Diaspora Network */}
           <div className="flex flex-col items-center">
             <a
-              href="RDKONGO"
+              href="https://www.linkedin.com/in/thelly660"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline text-white"
