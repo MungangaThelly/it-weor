@@ -15,7 +15,6 @@ const About = () => (
     {/* Om oss */}
     <section id="om-oss" style={{ marginBottom: '2rem' }}>
       <h2>Om oss</h2>
-      <img src="/images/okapi.jpg" alt="Okapi från Kongo" style={{ float: 'right', width: '150px', marginLeft: '1rem' }} />
       <p>
         IT-Weor AB är ett svenskt IT-bolag grundat 2022. Vi förenklar teknik för både företag och privatpersoner,
         och kombinerar teknisk expertis med affärsförståelse för att leverera långsiktiga digitala lösningar.
