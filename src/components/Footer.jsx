@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-6 mt-12">
@@ -7,7 +9,7 @@ const Footer = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-4 sm:mt-0 text-sm text-center sm:text-right">
           <a href="mailto:info@it-weor.se" className="hover:underline">it.weor@gmail.com</a>
-          <a href="/contact" className="hover:underline">Kontakta oss</a>
+          <Link to ="/contact" className="hover:underline">Kontakta oss</Link>
           <a href="https://it-weor.se" target="_blank" rel="noopener noreferrer" className="hover:underline">it-weor.se</a>
           <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
           <a href="https://www.linkedin.com/in/thelly660" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
