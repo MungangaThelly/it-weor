@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 text-sm text-center sm:text-right">
-          <a href="mailto:info@it-weor.se" className="hover:underline">info@it-weor.se</a>
+          <a href="https://x.com/home" className="hover:underline">https://x.com</a>
           <Link to="/contact" className="hover:underline">Kontakta oss</Link>
           <a href="https://it-weor.se" target="_blank" rel="noopener noreferrer" className="hover:underline">it-weor.se</a>
           <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
