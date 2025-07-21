@@ -1,47 +1,62 @@
-README.md
-
 # IT-Weor AB – Officiell Webbplats
 
-Välkommen till den officiella webbsidan för **IT-Weor AB**, ett svenskt IT-företag specialiserat på cybersäkerhet, molntjänster och digitala lösningar.
+Välkommen till den officiella webbsidan för **IT-Weor AB**, ett svenskt IT-företag specialiserat på cybersäkerhet, molntjänster och digitala lösningar. Vi fokuserar på att skydda din digitala infrastruktur och leverera skräddarsydda lösningar för både företag och privatpersoner.
 
-## 🚀 Om projektet
+---
 
-Detta är en React-baserad webbplats som presenterar vårt företag, våra tjänster och vårt erbjudande till både företag och privatpersoner. Fokus ligger på tydlig kommunikation, säkerhetsmedvetenhet och modern webbutveckling.
+## 🚀 Om Projektet
+
+Den här webbplatsen är byggd med **React.js** och är utformad för att ge en **modern och säker användarupplevelse**. Webbplatsen presenterar vårt företag, våra tjänster och vårt erbjudande till våra kunder. Fokus ligger på att **kommunicera tydligt**, **lyfta fram säkerhetsmedvetenhet**, och **använda moderna webbteknologier**.
+
+---
 
 ## 🧩 Teknikstack
 
-- **React.js** – komponentbaserad frontend
-- **HTML5 & CSS3** – semantisk och responsiv design
-- **JavaScript (ES6+)**
-- (Valfritt) **Node.js / Express (backend)** – om ni använder en server
-- (Valfritt) **JWT** – för autentisering via API
+Den här webbplatsen använder följande teknologier:
 
-## 🛡️ Våra tjänsteområden
+- **React.js** – Komponentbaserad frontend-lösning
+- **HTML5 & CSS3** – Semantisk och responsiv design
+- **JavaScript (ES6+)** – För bättre funktionalitet och interaktivitet
+- (Valfritt) **Node.js / Express (backend)** – Om ni använder serverhantering
+- (Valfritt) **JWT (JSON Web Tokens)** – För säker autentisering via API
 
-| Tjänsteområde                        | Exempel på leverans |
-|-------------------------------------|----------------------|
-| **Webb- & Applikationssäkerhet**    | Frontend (XSS, CSRF, CSP) och backend (API-säkerhet, JWT-autentisering) |
-| **Microsoft 365 & Azure-säkerhet**  | DLP, MFA, Zero Trust, Sentinel |
-| **Nätverks- & Infrastruktursäkerhet** | Cisco VPN, brandväggar, SIEM |
-| **IT-strategi & Projektledning**    | ISO 27001, incidenthantering |
-| **Support & Optimering**            | 24/7 övervakning, ITIL, prestandaoptimering |
+---
+
+## 🛡️ Våra Tjänsteområden
+
+Vi erbjuder en mängd tjänster inom cybersäkerhet och digitala lösningar, inklusive men inte begränsat till:
+
+| **Tjänsteområde**                   | **Exempel på Leverans**                                                                 |
+|-------------------------------------|----------------------------------------------------------------------------------------|
+| **Webb- & Applikationssäkerhet**    | Säkerhetsgranskning av frontend och backend, API-säkerhet, penetrationstester          |
+| **Microsoft 365 & Azure-säkerhet**  | DLP, MFA, Zero Trust, Hotidentifiering med Defender och Sentinel                        |
+| **Nätverks- & Infrastruktursäkerhet**| Cisco VPN, brandväggar, SIEM-lösningar, WAF-implementation                              |
+| **IT-strategi & Projektledning**    | ISO 27001-certifiering, incidenthantering, cybersäkerhetsstrategi                       |
+| **Support & Optimering**            | 24/7 övervakning via vår hostingplattform, ITIL-baserad support, prestandaoptimering    |
+
+---
 
 ## 📁 Struktur
 
+Så här är projektstrukturen organiserad:
+
 /src
 ├── components
-│ └── About.jsx # Innehåller företagspresentationen och tjänstetabellen
-├── App.js
-├── index.js
-└── styles.css (valfritt)
+│ └── About.jsx # Företagspresentation och tjänstebeskrivning
+├── App.js # Huvudapplikationen
+├── index.js # Inmatningspunkt för applikationen
+└── styles.css # (Valfritt) Anpassad CSS
 
-bash
-Kopiera
-Redigera
+yaml
+
+
+---
 
 ## 📦 Installation
 
-1. Klona projektet:
+För att komma igång, följ dessa steg:
+
+1. **Klona projektet:**
 
 ```bash
 git clone https://github.com/dittkonto/it-weor-website.git
@@ -49,28 +64,29 @@ cd it-weor-website
 Installera beroenden:
 
 bash
-Kopiera
-Redigera
+
 npm install
 Starta utvecklingsservern:
 
 bash
-Kopiera
-Redigera
+
 npm start
+Webbplatsen kommer nu att vara tillgänglig på http://localhost:3000.
+
 🔒 Säkerhetsfokus
-Vi använder moderna säkerhetsprinciper såsom:
+Vi lägger stor vikt vid säkerhet och följer moderna säkerhetsprinciper såsom:
 
-JWT för autentisering
+JWT för säker autentisering
 
-Zero Trust-modellen i molnmigrering
+Zero Trust-modellen för molnmigrering och dataskydd
 
-Penetrationstester och kodgranskning
+Penetrationstester och kodgranskningar för att identifiera och åtgärda sårbarheter
 
-SIEM och hotdetektering
+SIEM-lösningar och hotdetektering för att skydda mot cyberattacker
 
 📬 Kontakt
-📧 info@it-weor.se
-🌐 www.it-weor.se (länk om tillgänglig)
+📧 E-post: info@it-weor.se
+
+🌐 Webbplats: www.it-weor.se (länk om tillgänglig)
 
 © 2025 IT-Weor AB – All rights reserved.
