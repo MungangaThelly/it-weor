@@ -24,16 +24,26 @@ const Home = () => {
   ];
 
   return (
-    <div className="p-8 text-center">
-      <h1 className="text-3xl font-bold mb-2">{t('home.welcome')}</h1>
-      <p className="text-lg mb-8">{t('home.intro')}</p>
+    <div className="px-6 py-10 max-w-7xl mx-auto font-sans text-center text-gray-100">
+      {/* Page Intro */}
+      <header className="mb-12">
+        <h1 className="text-4xl font-bold text-white mb-4">{t('home.welcome')}</h1>
+        <p className="text-lg text-cyan-400 max-w-xl mx-auto">{t('home.intro')}</p>
+      </header>
 
-      <Hero
-        title={t('hero.title')}
-        subtitle={t('hero.subtitle')}
-        ctaText={t('hero.cta')}
-      />
-      <Features features={features} />
+      {/* Hero Section */}
+      <section className="mb-16">
+        <Hero
+          title={t('hero.title')}
+          subtitle={t('hero.subtitle')}
+          ctaText={t('hero.cta')}
+        />
+      </section>
+
+      {/* Features Section */}
+      <section>
+        <Features features={features} />
+      </section>
     </div>
   );
 };
