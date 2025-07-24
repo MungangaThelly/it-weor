@@ -11,6 +11,7 @@ const Contact = () => {
         <p><strong>Telefon:</strong> +46 70 481 03 77</p>
         <p><strong>Adress:</strong> ort-Bromma, Stockholm</p>
         <p><strong>Org.nr:</strong> 559397-7332</p>
+        <br />
         <p><strong>Vi Tackar, <br />Many Thanks,<br /> Merci beaucoup,</strong></p>
 
       </div>

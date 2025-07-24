@@ -13,8 +13,8 @@ const Navbar = () => {
     <nav className="bg-gray-800 text-white p-4 flex flex-wrap items-center justify-between">
       <div className="flex gap-4">
         <Link to="/" className="hover:underline">{t('nav.home')}</Link>
-        <Link to="/services" className="hover:underline">{t('nav.services')}</Link>
         <Link to="/about" className="hover:underline">{t('nav.about')}</Link>
+        <Link to="/services" className="hover:underline">{t('nav.services')}</Link>
         <Link to="/contact" className="hover:underline">{t('nav.contact')}</Link>
       </div>
       <div className="flex gap-2 text-sm mt-2 sm:mt-0">
