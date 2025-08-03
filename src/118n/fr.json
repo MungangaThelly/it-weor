@@ -3,7 +3,9 @@
     "home": "Accueil",
     "services": "Services",
     "about": "À propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "projects":"Projets",
+    "testimonials": "Avis Clients"
   },
   "home": {
     "welcome": "Bienvenue chez IT-Weor AB",

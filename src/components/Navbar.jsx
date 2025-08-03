@@ -16,6 +16,8 @@ const Navbar = () => {
         <Link to="/about" className="hover:underline">{t('nav.about')}</Link>
         <Link to="/services" className="hover:underline">{t('nav.services')}</Link>
         <Link to="/contact" className="hover:underline">{t('nav.contact')}</Link>
+        <Link to="/Projects" className="hover:underline">{t('nav.projects')}</Link>
+        <Link to="/Testimonials" className="hover:underline">{t('nav.testimonials')}</Link>
       </div>
       <div className="flex gap-2 text-sm mt-2 sm:mt-0">
         <button onClick={() => changeLang('sv')}>🇸🇪</button>
