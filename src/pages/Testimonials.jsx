@@ -2,8 +2,12 @@ import React from 'react';
 
 const testimonials = [
   {
-    name: "Anna Berg, CTO på FinTechCo",
+    name: "Monica, SG at Teosofiska Samfundet",
     quote: "Tjänsterna överträffade våra förväntningar. Säkra, snabba och professionella.",
+  },
+  {
+    name: "Telli Vogelmann, IT-chef på STI",
+    quote: "Ett team du kan lita på- kunnig och alltid redo att levererar.",
   },
   {
     name: "Johan Lind, IT-chef på EduCloud",
