@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center">
         <div className="flex items-center gap-4 mb-4 sm:mb-0">
           <img
-            src="/images/WEOR.jpg"
+            src="/images/weor0.jpg"
             alt="IT-Weor AB Logo"
             className="h-20 w-auto rounded shadow-sm"
           />
